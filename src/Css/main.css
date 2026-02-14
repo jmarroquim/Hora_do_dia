@@ -1,0 +1,50 @@
+/*
+Main Css do Projeto
+*/
+
+#layout {
+    width: calc(100% - 30px);
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 62.5%;
+    /*Conversao de pixels para rem*/
+    font-family: "poppins", sans-serif;
+    font: normal;
+    font-size: large;
+
+}
+
+body {
+    background: #9494b3;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.384);
+}
+
+#msg {
+    margin: 20px;
+    text-align: center;
+}
+
+#foto {
+    margin: 20px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
